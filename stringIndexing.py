@@ -5,5 +5,6 @@ print(credit_number[0])
 print(credit_number[:4])
 print(credit_number[4:])
 print(credit_number[:-1])
+print(credit_number[::2])
 reversed_credit_number= credit_number[::-1]
 print(reversed_credit_number)

@@ -25,10 +25,13 @@ result = pow(2, 3)  # 2 raised to the power of 3
 result = math.sqrt(16)  # Square root of 16
 result = max(3,5,4,6)
 result = min(4.2,3.5,4,3,4)
-
+#sum() - adds the items of an iterable and returns the sum
+vals = [1,2,3,4,5]
+print(sum(vals,20))
 print(result)
 # print(f"{friend}")
 
+#pow(x,y,z) x raised to y result % z
 #finding the hypotnuse of a triangle
 A = float(input("Enter the length of side A:"))
 B = float(input("Enter the length of side B:"))
